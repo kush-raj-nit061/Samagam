@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         app:cardCornerRadius="@dimen/_20sdp"
-        android:backgroundTint="#272626"
+        android:backgroundTint="#1F252E"
         android:layout_marginEnd="@dimen/_5sdp"
         android:layout_marginBottom="@dimen/_5sdp">
 
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/_30sdp"
                 android:text="An inquisitive person, with a fervour to experience this rapidly growing tech industry. Always up for challenges and a resolute individual who believes in building things. Placed @ Oracle"
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
 
             <TextView
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/_30sdp"
                 android:text="An inquisitive person, with a fervour to experience this rapidly growing tech industry. Always up for challenges and a resolute individual who believes in building things. Placed @ Oracle"
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
 
             <LinearLayout

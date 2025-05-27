@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:background="@color/black"
             app:cardCornerRadius="@dimen/_15ssp"
-            android:backgroundTint="#303030"
+            android:backgroundTint="#1F252E"
             android:layout_marginHorizontal="@dimen/_10sdp">
 
             <LinearLayout
@@ -32,7 +32,7 @@
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/white_right_40dp"
-                        android:backgroundTint="@color/black"
+                        android:backgroundTint="#14171C"
                         android:layout_marginTop="10dp"
                         >
 
@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/addPost"
                         android:background="@drawable/white_right_40dp"
-                        android:backgroundTint="@color/black"
+                        android:backgroundTint="#14171C"
                         android:layout_marginTop="10dp"
                         >
 
@@ -72,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/logout"
                         android:visibility="gone"
-                        android:backgroundTint="@color/black"
+                        android:backgroundTint="#14171C"
                         android:background="@drawable/white_right_40dp"
                         android:layout_marginTop="10dp"
                         >
@@ -91,7 +91,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black"
+                        android:backgroundTint="#14171C"
                         android:layout_below="@+id/profilepic"
                         android:background="@drawable/white_right_40dp"
                         android:layout_marginTop="10dp"
@@ -224,7 +224,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginTop="8dp"
-                    app:cardBackgroundColor="@color/black"
+                    app:cardBackgroundColor="#14171C"
                     android:minHeight="2000dp"
                     android:layout_marginBottom="@dimen/_10sdp"
                     app:cardCornerRadius="@dimen/_16sdp"

@@ -4,13 +4,14 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#373434"
+    android:background="#1F2530"
     >
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -29,7 +30,6 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/_40sdp"
                 android:textStyle="bold" />
-
         </RelativeLayout>
 
         <RelativeLayout
@@ -38,9 +38,7 @@
             android:layout_gravity="end"
             android:layout_weight="1"
             android:background="@drawable/toolbackr"
-            android:padding="@dimen/_13sdp"
-
-            >
+            android:padding="@dimen/_13sdp">
             <ImageView
                 android:id="@+id/ghost"
                 android:layout_width="match_parent"
@@ -62,12 +60,7 @@
                 android:padding="@dimen/_14sdp"
                 android:src="@drawable/plus"
                 app:tint="#CD58FE" />
-
         </RelativeLayout>
-
-
-
-
     </LinearLayout>
     <TextView
         android:id="@+id/clubNames"
@@ -93,6 +86,8 @@
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_180sdp"
+                app:cardBackgroundColor="#4D6596"
+                android:background="#4D6596"
                 android:layout_marginHorizontal="15dp"
                 app:cardCornerRadius="@dimen/_35sdp"
                 android:elevation="20dp">
@@ -151,7 +146,6 @@
                                             android:layout_height="match_parent"
                                             android:scaleType="fitXY"
                                             android:src="@drawable/logo"/>
-
                                     </androidx.cardview.widget.CardView>
 
 
@@ -169,15 +163,8 @@
                                             android:layout_height="match_parent"
                                             android:scaleType="fitXY"
                                             android:src="@drawable/logo"/>
-
                                     </androidx.cardview.widget.CardView>
-
-
                                 </LinearLayout>
-
-
-
-
                             </LinearLayout>
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/clubEvent"
@@ -191,18 +178,10 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:src="@drawable/outdent"/>
-
                             </androidx.cardview.widget.CardView>
-
-
                         </LinearLayout>
-
-
                     </androidx.cardview.widget.CardView>
-
                 </RelativeLayout>
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -211,6 +190,8 @@
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginBottom="20dp"
                 app:cardCornerRadius="@dimen/_35sdp"
+                app:cardBackgroundColor="#4D6596"
+                android:background="#4D6596"
                 android:elevation="20dp">
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -316,13 +297,7 @@
                                             android:src="@drawable/logo"/>
 
                                     </androidx.cardview.widget.CardView>
-
-
                                 </LinearLayout>
-
-
-
-
                             </LinearLayout>
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/cvOffice"
@@ -338,21 +313,17 @@
                                     android:src="@drawable/outdent"/>
 
                             </androidx.cardview.widget.CardView>
-
-
                         </LinearLayout>
-
-
                     </androidx.cardview.widget.CardView>
-
                 </RelativeLayout>
-
-
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_180sdp"
                 android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#4D6596"
+                android:background="#4D6596"
                 android:layout_marginHorizontal="15dp"
                 app:cardCornerRadius="@dimen/_35sdp"
                 android:elevation="20dp">
@@ -460,13 +431,7 @@
                                             android:src="@drawable/logo"/>
 
                                     </androidx.cardview.widget.CardView>
-
-
                                 </LinearLayout>
-
-
-
-
                             </LinearLayout>
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/cvMember"
@@ -480,21 +445,13 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:src="@drawable/outdent"/>
-
                             </androidx.cardview.widget.CardView>
-
-
                         </LinearLayout>
-
-
                     </androidx.cardview.widget.CardView>
-
                 </RelativeLayout>
-
-
             </androidx.cardview.widget.CardView>
-            <TextView
 
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_35sdp"
@@ -508,12 +465,6 @@
                 android:nestedScrollingEnabled="false"
                 android:layout_height="wrap_content"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
-
         </LinearLayout>
-
-
     </androidx.core.widget.NestedScrollView>
-
-
-
 </LinearLayout>

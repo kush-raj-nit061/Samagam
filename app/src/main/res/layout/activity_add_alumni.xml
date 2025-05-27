@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:layout_marginHorizontal="@dimen/_20sdp"
             android:layout_marginVertical="@dimen/_20sdp"
-            android:backgroundTint="#272626"
+            android:backgroundTint="#1F252E"
             android:layout_gravity="center"
             android:outlineProvider="paddedBounds"
             app:cardCornerRadius="@dimen/_15sdp">
@@ -28,6 +28,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ADD-CLUB MEMBERS"
+                    android:textStyle="bold"
                     android:textColor="#C3A7FE"
                     android:textSize="25dp"
                     android:layout_gravity="center"
