@@ -38,16 +38,13 @@ class SignupActivity : AppCompatActivity() {
     private var dref:DatabaseReference=FirebaseDatabase.getInstance().getReference("Users")
 
 
-
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
 
         callVariablesByIds()
-
         setOnClickListeners()
-
     }
 
     private fun setOnClickListeners() {
@@ -81,7 +78,7 @@ class SignupActivity : AppCompatActivity() {
 
                                     Toast.makeText(
                                         applicationContext,
-                                        "Registration successful! Check your email for verification link",
+                                        "Registration successful! Check your email for verification link (you may need to check spam folder)",
                                         Toast.LENGTH_SHORT
                                     ).show()
                                     val intent: Intent = Intent(
@@ -116,7 +113,6 @@ class SignupActivity : AppCompatActivity() {
             var intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun checkAllTheConditions(email:String, password:String,confirmPass:String,name: String):Boolean {
