@@ -39,7 +39,7 @@ cd Samagam
 - Open the project in Android Studio.
 - Sync dependencies and run on emulator or device via Run ▶.
 
-###Build & Run (Desktop / JVM)
+### Build & Run (Desktop / JVM)
 - Open in IntelliJ IDEA.
 - Build with Gradle:
 ```
