@@ -46,9 +46,6 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun callOnClickListeners() {
-
-
-
         signin.setOnClickListener{
             sEmail = email.text.toString()
             sPass = password.text.toString()

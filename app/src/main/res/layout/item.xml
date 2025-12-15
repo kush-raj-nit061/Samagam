@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="8dp"
     android:layout_margin="@dimen/_10sdp"
-    app:cardBackgroundColor="@color/black"
+    app:cardBackgroundColor="#1F252E"
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
@@ -68,7 +68,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="@dimen/_30sdp"
-            app:cardBackgroundColor="#797C7A"
+            app:cardBackgroundColor="#2B3142"
             app:cardCornerRadius="5dp">
 
             <LinearLayout
@@ -85,7 +85,7 @@
                         android:layout_height="wrap_content"
                         android:text="Date:"
                         android:paddingStart="@dimen/_4sdp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp"/>
                     <TextView
                         android:id="@+id/date"
@@ -109,7 +109,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Time:"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp"/>
                     <TextView
                         android:id="@+id/time"
@@ -133,7 +133,7 @@
                         android:layout_height="wrap_content"
                         android:text="Venue:"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp"/>
                     <TextView
                         android:id="@+id/venue"

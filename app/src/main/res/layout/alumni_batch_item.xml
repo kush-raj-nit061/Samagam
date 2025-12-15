@@ -8,6 +8,8 @@
         android:layout_marginVertical="@dimen/_20sdp"
         android:layout_width="match_parent"
         android:layout_height="180dp"
+        app:cardBackgroundColor="#4D6596"
+        android:background="#4D6596"
         android:layout_marginHorizontal="15dp"
         app:cardCornerRadius="@dimen/_35sdp"
         android:elevation="20dp">
